@@ -3,3 +3,66 @@ a{
     position: relative;
 }
 
+
+figure{
+    display: block;
+    /* max-width: 80%; */
+}
+ img{
+     width: 100%;
+ }
+
+ /*general styles*/
+body {
+    background-attachment: fixed;
+    background-image: url("./notebook-bg.jpg");
+    background-size: cover;
+}
+
+img{
+    display: block;
+}
+
+.main-content {
+    background-color: white;
+    border: 10px solid black;
+    /* border-size border-style border-color */
+    padding: 10px;
+}
+
+/*component styles*/
+.card {
+    margin: 10px;
+}
+
+.student-bio::first-letter{
+    color: Blue;
+    font-size: 50px;
+    line-height: 1;
+}
+
+/*Media Queries*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .student-bio-image-wrapper {
+      float: left;
+      margin: 0 16px 12px 0;
+      /* top right bottom left */
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
